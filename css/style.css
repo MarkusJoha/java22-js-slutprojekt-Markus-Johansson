@@ -1,0 +1,47 @@
+body {
+    background-color: tan;
+}
+
+#searchDiv {
+    border: 4px solid lightskyblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 14px;
+}
+
+label {
+    margin: 0px 12px;
+}
+
+#searchBtn {
+    margin: 0px 12px;
+}
+
+#galleryDiv {
+    width: 95%;
+    min-height: 100px;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+a {
+    height: fit-content;
+}
+
+a:hover {
+    background-color: black;
+}
+
+#textDiv {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 4px solid lightskyblue;
+}
+
+img:hover {
+    border: 4px solid black;
+}
