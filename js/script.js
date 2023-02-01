@@ -70,6 +70,8 @@ function getImages(searchInput, imageAmount, sort) {
 // function creating img elements and appending them into the sub gallery div
 function showImages(images) {
 
+    if(images.photos.photo.length != 0) {
+    
     for (let i = 0; i < images.photos.photo.length; i++) {
 
         const flickrImages = images.photos.photo[i];
@@ -85,5 +87,9 @@ function showImages(images) {
         aEl.href = linkPlaceholder;
         aEl.target = '_blank';
         imgEl.src = linkPlaceholder;
+    }
+    }
+    else {
+        alert('No images found!');
     }
 }
